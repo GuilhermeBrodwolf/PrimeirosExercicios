@@ -1,0 +1,81 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	//1) Faça um algoritimo para ler armazenar o número 10 numa variável INTEIRO e escreva o valor armazenado na variável:
+	
+		inteiro chicletes
+		escreva("quantos chicletes você comprou? \n")
+		leia(chicletes)
+
+		escreva("eu comprei " ,chicletes, " chicletes \n\n")
+
+
+	//2) Faça um algoritmo para ler armazenar o número 12,5 numa variável REAL e escreva o valor armazenado na variável:
+
+		real pizza
+		escreva("quantas fatais de pizza você comer? \n")
+		leia(pizza)
+
+		escreva("eu comi " ,pizza, " pedaços \n\n")
+
+	//3) Faça um algoritmo para ler armazenar o seu nome numa variável CADEIA e escreva o valor armazenado na variável:
+
+		cadeia nome
+		escreva("Qual é o seu nome? \n")
+		leia(nome)
+
+		escreva("meu nome é " ,nome, "\n \n")
+
+	//4) Faça um algoritmo para ler armazenar o seu nome numa variável LÓGICA e escreva o valor armazenado na variável:
+
+		cadeia filhos = "você tem filhos? \n"
+		escreva(filhos)
+		leia(filhos)
+		se(filhos=="sim" ou filhos=="tenho"){
+			escreva("\n")
+		}senao{ 
+			escreva("não \n\n")}
+		
+		
+		cadeia quantos
+		escreva("quantos você tem? \n")
+		leia(quantos)
+
+		escreva("eu tenho " ,quantos, " filhos \n\n")
+
+
+
+
+		//5) Ler nome, endereço e telefone e imprimi-los
+			cadeia name = "Guilherme \n"
+			cadeia adress = "Rua Júlia Lobe Zendron, nº 11 \n"
+			cadeia phone = "47-999995215 \n\n"
+				escreva(name)
+				escreva(adress)
+				escreva(phone)
+
+		//6) Ler dois números inteiros e imprimir a soma. Antes do resultado, devera aparecer a mensagem: Soma
+
+			inteiro a
+				escreva("digite um número de 1 a 9 \n")
+				leia(a)
+			inteiro b
+				escreva("digite um número de 10 a 20 \n")
+				leia(b)
+			inteiro c = a + b
+				
+				escreva("Soma = " ,c, " anos \n\n")
+			
+			
+			inteiro x
+				escreva("escolha um número de 1 a 9 \n")
+				leia(x)
+			inteiro y
+				escreva("escolha um número de 10 a 20 \n")
+				leia(y)
+			inteiro z = x * y
+				escreva("Resultado = " ,z, "\n")
+	}
+}
